@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    direction: rtl;
+}
+
+.relative {
+    position: relative;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.award {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 120px;
+}
