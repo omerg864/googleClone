@@ -1,0 +1,252 @@
+
+#header {
+    display: flex;
+    flex-direction: row-reverse;
+    height: 50px;
+    justify-content: space-between;
+    margin: 5px;
+}
+
+header {
+    border-bottom: 1px solid lightgray;
+    margin: 0;
+    padding: 5px 0;
+}
+
+#header div {
+    display: flex;
+    flex: 1;
+}
+
+#header-right {
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#header-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.input-icons {
+    position: absolute;
+    top: 5px;
+    right: 4px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+.vl {
+    border-right: 1px solid gray;
+    height: 23px;
+    margin: 0 5px;
+}
+
+.icon-btn {
+    height: 25px;
+    width: 25px;
+}
+
+.icon-btn:hover {
+    cursor: pointer;
+}
+
+#sub-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 5px 5px 5px 10%;
+}
+
+#sub-btns {
+    display: flex;
+}
+
+.sub-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 35%;
+}
+
+.sub-right {
+    display: flex;
+    align-items: center;
+}
+
+.choice-btn {
+    background-color: transparent;
+    border: 1px solid #dadce0;
+    border-radius: 20px;
+    height: 40px;
+    padding: 0 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.choice-btn:hover {
+    cursor: pointer;
+    background-color: #f1f3f4;
+}
+
+.tools {
+    background-color: transparent;
+    border-radius: 8px;
+    box-sizing: border-box;
+    color: #70757a;
+    cursor: pointer;
+    font-weight: bold;
+    height: 40px;
+    line-height: 40px;
+    margin-right: -9px;
+    padding: 0 9px;
+    border: 0;
+}
+
+.tools:hover {
+    background-color: #f1f3f4;
+    color: #202124;
+}
+
+main {
+    margin: 10px 0;
+    margin-left: 10%;
+    width: 40%;
+    height: max-content;
+}
+
+article {
+    margin-top: 10px;
+}
+
+.article-icon {
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+}
+
+.article-settings {
+    box-sizing: border-box;
+    height: 20px;
+    width: 20px;
+}
+
+.article-settings-btn { 
+    background-color: transparent;
+    border: none;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.article-settings-btn:hover {
+    cursor: pointer;
+    background-color: lightgray;
+}
+
+.article-header {
+    display: flex;
+}
+.article-header:hover {
+    cursor: pointer;
+}
+
+.article-site {
+    display: block;
+}
+
+.article-title {
+    margin: 0;
+    color: rgb(26, 13, 171);
+}
+
+.article-title:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.article-description {
+    margin: 0;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+    gap: 5px;
+    margin: 10px 0 ;
+}
+.blue-letter {
+    color: blue;
+}
+
+.yellow-letter {
+    color: rgb(255, 234, 0);
+}
+
+.red-letter {
+    color: red;
+}
+
+.green-letter {
+    color: green;
+}
+
+.number {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.digit, .no {
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.digit:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.no:hover {
+    text-decoration: none;
+}
+
+
+.next {
+    font-size: 20px;
+}
+
+.next-container {
+    justify-content: space-evenly;
+    padding-top: 10px;
+}
+
+footer {
+    background-color: rgba(186, 186, 186, 0.511);
+    color: dimgrey;
+}
+
+.bottom-footer {
+    border-top: 1px solid rgb(103, 103, 103);
+}
+
+.top-footer {
+    display: flex;
+    margin-left: 10%;
+    padding: 5px;
+}
+
+.svg-settings {
+    height: 16px;
+    padding-top: 10px;
+}
+
+.in-bottom-footer {
+    margin-left: 10%;
+    padding: 5px;
+}

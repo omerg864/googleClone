@@ -1,0 +1,112 @@
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+}
+
+header {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 5px;
+    align-items: center;
+}
+
+header a {
+    color: black;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10px;
+}
+
+header a:hover {
+    cursor: pointer;
+    color: red;
+    text-decoration: underline;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(236, 236, 236);
+    border-top: 1px solid lightgray;
+}
+
+footer div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer div a {
+    color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.btns {
+    margin-bottom: 10px;
+}
+
+main button {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+}
+
+main button:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+
+#footer_left {
+    padding-left: 10px;
+}
+#footer_right {
+    padding-right: 10px;
+}
+
+#logo-img {
+    height: 90%;
+}
+
+#search {
+    height: 25px;
+    position: absolute;
+    top: 5px;
+    left: 4px;
+}
+
+#camera {
+    height: 25px;
+    position: absolute;
+    top: 5px;
+    right: 4px;
+}
+
+#camera:hover {
+    cursor: pointer;
+}
+
+footer a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}

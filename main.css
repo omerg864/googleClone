@@ -1,0 +1,79 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 99%;
+}
+
+.circle-btn {
+    background-color: transparent;
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding-left: 5px;
+    padding-right: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.circle-btn:hover {
+    cursor: pointer;
+    background-color: rgba(218,220,224,.5);
+}
+
+.header-img {
+    height: 90%;
+}
+
+.header-img-a {
+    height: 90%;
+    margin-right: 10px;
+}
+
+#input-div {
+    position: relative;
+    width: 50%;
+    height: 35px;
+    margin-bottom: 10px;
+}
+
+input {
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    font-size: 16px;
+    box-shadow: 0 2px 5px 1px rgba(64,60,67,.16);
+    border-radius: 24px;
+    border: none;
+}
+
+input:hover {
+    background-color: #fff;
+    box-shadow: 0 1px 6px rgba(32,33,36,.28);
+    border-color: rgba(223,225,229,0);
+}
+
+.user-btn {
+    position: relative;
+}
+
+.names {
+    opacity: 0;
+    background-color: gray;
+    color: white;
+    position: absolute;
+    bottom: -55px;
+    left: -65px;
+    transition: all 0.4s;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.user-btn:hover > .names {
+    opacity: 1;
+}
